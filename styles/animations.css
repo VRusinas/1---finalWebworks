@@ -35,7 +35,7 @@
     transition: 1.25s all ease;
   }
   .reveal.right{
-    transform: translateX(150px);
+    transform: translateX(-150px);
     transition: 1s all ease;
   }
   /* .reveal.fast{
@@ -44,7 +44,8 @@
     opacity: 0;
   } */
   .reveal.active-scroll{
-    transform: translateY(0);
+    transform: translateY(0) ;
     opacity: 1;
   }
+  
   

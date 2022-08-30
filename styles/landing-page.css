@@ -79,20 +79,23 @@
 }
 @media screen and (max-width: 720px) {
     .landing-page{
+        width: 100%;
         text-align: center;
         height: 400px;
        
     }
     .landing-page .landing-page-container .image-side{
+        width: 0px;
+        height: 0px;
         display: none;
     }
     .landing-page .landing-page-container .text-side{
         width: 100%;
         height: 450px;
-        padding-top: 0vh;
-        padding-bottom: 0vh;
+        padding:0px;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .landing-page .landing-page-container .text-side .container-main-text{
         width: 100%;
@@ -107,7 +110,6 @@
         display: flex;
         flex-direction:column;
         align-items: center;
-        padding: 20px;
         text-align: center;
     }
     .landing-page .landing-page-container .text-side .container-main-text .buisness-moto{
