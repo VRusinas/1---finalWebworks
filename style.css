@@ -15,8 +15,7 @@ body{
     height: auto;
 /* Created with https://www.css-gradient.com */
     background: #0e0e0efc;
-    /* color: rgb(206, 206, 206); */
-    color: blue;
+    color: rgb(206, 206, 206);
     font-family: 'Silkscreen', cursive;
 }
 .app-container{
