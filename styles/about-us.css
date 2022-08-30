@@ -112,7 +112,18 @@ align-items: center;
   @media screen and (max-width: 400px)
   {
         .about-us{
-        height:1350px;
+        height:1200px;
+   
+    }
+    .about-us .about-us-image-box{
+        padding-bottom: 0px;  
+    }
+  }
+  @media screen and (max-height: 900px),
+  screen and (min-height:600px) 
+  {
+        .about-us{
+        height:1150px;
    
     }
     .about-us .about-us-image-box{
@@ -122,8 +133,7 @@ align-items: center;
 @media screen and (max-width: 260px),
     screen and (max-height: 350px) {
     .about-us{
-        padding-top: 150px;
-        height:1550px;
+        height:1300px;
 
 }
 }
