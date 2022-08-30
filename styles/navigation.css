@@ -45,7 +45,8 @@ ul {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  background-color:white;
+  background-color:rgb(206, 206, 206);
+  box-shadow:0.5px 2px #7936c6c0;
 }
 
 .navigation .navigation-box .side-meniu{
