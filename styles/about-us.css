@@ -3,7 +3,7 @@
     height: 800px;
     display: flex;
     justify-content: center;
-    padding-top: 10vh;
+    padding-top: 50px;
     padding-left:5vw;
     padding-right: 5vw;
     /* border: 2px solid #e2cb56; */
@@ -69,7 +69,7 @@ align-items: center;
 
 @media screen and (max-width: 920px) {
     .about-us{
-   
+        padding-top: 100px;
         flex-direction: column;
         height:1200px;
         justify-content: center;
@@ -113,6 +113,7 @@ align-items: center;
   {
         .about-us{
         height:1350px;
+   
     }
     .about-us .about-us-image-box{
         padding-bottom: 0px;  
@@ -121,7 +122,9 @@ align-items: center;
 @media screen and (max-width: 260px),
     screen and (max-height: 350px) {
     .about-us{
+        padding-top: 150px;
         height:1550px;
+
 }
 }
 
