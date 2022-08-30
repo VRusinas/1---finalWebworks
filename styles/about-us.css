@@ -110,21 +110,23 @@ align-items: center;
     }
   }
 
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 400px) {
     .about-us{
-        height:1400px;
-
+        height:1350px;
   }
   .about-us .about-us-image-box{
     padding-bottom: 0px;
    
 }
 }
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 200px) {
     .about-us{
         height:1500px;
-        padding-top: 300px;
-       border: 2px solid greenyellow;
+}
+.about-us .about-us-text-box{
+
+    height: 1000px;
+ 
 }
 }
 
