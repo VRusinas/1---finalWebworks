@@ -123,7 +123,8 @@ align-items: center;
 @media screen and (max-width: 250px) {
     .about-us{
         height:1500px;
-        padding-top: 200px;
+        padding-top: 300px;
+       border: 2px solid greenyellow;
 }
 }
 
