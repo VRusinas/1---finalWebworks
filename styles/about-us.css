@@ -112,6 +112,7 @@ align-items: center;
 
   @media screen and (max-width: 400px) {
     .about-us{
+        color: blue;
         height:1350px;
   }
   .about-us .about-us-image-box{
