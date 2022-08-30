@@ -6,10 +6,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  overflow: hidden;
-position: fixed;
+  position: fixed;
   top: 0;
   z-index: 10;
+  -webkit-backface-visibility: hidden;
   /* border: 2px solid red; */
 }
 .navigation .buisness-name-box{

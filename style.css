@@ -21,11 +21,11 @@ body{
 }
 .app-container{
     width: 100%;
-    height: inherit;
+    height: 3000px;
 }
 .container{
     width: 100%;
-    height:inherit;
+    height: 3000px;
 }
 #yellow-color{
     color: #e2cb56;
