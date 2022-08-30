@@ -83,8 +83,9 @@
         text-align: center;
         height: 400px;
         margin-top:100px;
-       
-       
+    }
+    .landing-page .landing-page-container .image-side{
+        height: 400px;
     }
     .landing-page .landing-page-container .image-side{
         width: 0px;
@@ -119,10 +120,14 @@
     }
    
   }
-  @media screen and (max-width: 300px) {
+  @media screen and (max-width: 360px) {
     .landing-page{
         margin-top:50px;
-        height: 80vh;
+        height: 700px;
+        color: green;
+    }
+    .landing-page .landing-page-container .image-side{
+        height: 700px;
     }
     
     
