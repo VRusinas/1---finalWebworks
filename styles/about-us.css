@@ -69,9 +69,10 @@ align-items: center;
 
 @media screen and (max-width: 920px) {
     .about-us{
-
+        padding-left: 20px;
+        padding-right: 20px;
         flex-direction: column;
-        height:1200px;
+        height:1400px;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -111,7 +112,7 @@ align-items: center;
   @media screen and (max-width: 380px) {
     .about-us{
         height:1300px;
-        padding: 200px 20px 0px 20px;
+
   }
   .about-us .about-us-image-box{
     padding-bottom: 0px;
